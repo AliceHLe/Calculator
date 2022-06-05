@@ -1,0 +1,84 @@
+html {
+    font-size: 150%;
+    font-weight: 300;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+body {
+    display: flex;
+    background-color: paleturquoise;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: rgb(119, 119, 119);
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: rgb(151, 148, 148);
+}
+
+.calculator {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0)
+}
+
+.viewer {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    width: 16.25em;
+    padding: 0.75rem 1rem;
+    text-align: right;
+    font-size: calc(1rem * 1.2 * 1.2);
+}
+
+.calculator__keys {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+#zero {
+    grid-column: 1/span 2;
+}
+
+.front-row {
+    background-color: rgb(212, 212, 210);
+    color: black;
+}
+
+.clear {
+    background-color: rgb(212, 212, 210);
+    color: black;
+}
+
+.front-row:hover {
+    background-color: rgb(241, 241, 239);
+}
+
+.clear:hover {
+    background-color: rgb(241, 241, 239);
+}
+
+.ops {
+    background-color: rgb(255, 149, 0);
+}
+
+#equals {
+    background-color: rgb(255, 149, 0);
+}
+
+.ops:hover {
+    background-color: rgb(255, 190, 98);
+}
+
+#equals:hover {
+    background-color: rgb(255, 190, 98);
+}
